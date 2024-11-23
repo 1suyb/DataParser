@@ -6,6 +6,7 @@ public class IMGUIExample : EditorWindow {
     private string textFieldValue = "Hello, IMGUI!";
     private float sliderValue = 0.5f;
     private bool toggleValue = false;
+    private TextAsset textAsset;
 
     [MenuItem("Tools/IMGUI Example")]
     public static void ShowWindow() {
@@ -28,7 +29,7 @@ public class IMGUIExample : EditorWindow {
         // ��ư
         if (GUILayout.Button("Click Me"))
         {
-            ExcelParser.Parse();
+            ExcelParser.Parse(textFieldValue);
         }
 
         // ���� ���
