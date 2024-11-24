@@ -105,6 +105,8 @@ namespace SOLoader.FromExcel
 
         public static void WriteLoader(string className, string savePath, string excelPath)
         {
+            savePath = Path.Combine(savePath, "Editor");
+            EnsureFolderExists(savePath);
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("using System.IO;");
             sb.AppendLine("using UnityEditor;");
