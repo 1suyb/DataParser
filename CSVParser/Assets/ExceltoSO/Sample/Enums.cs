@@ -4,9 +4,9 @@ public enum ItemType
      Armor,
      Potion,
 }
-public enum MonsterType
-{
-     Small,
-     Middle,
-     Large,
-}
+//public enum MonsterType
+//{
+//     Small,
+//     Middle,
+//     Large,
+//}
