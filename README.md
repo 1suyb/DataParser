@@ -1,5 +1,6 @@
-# ScriptableObject maker
-- CSV 혹은 Excel 로부터 ScriptableObject를 만드는 프로젝트입니다.
+# DataParser
+- CSV 혹은 Excel 로부터 ScriptableObject를 만듭니다.
+- GoogleSheet로부터 Json을 만듭니다.
 - Excel을 읽어드리는데에 https://github.com/ExcelDataReader/ExcelDataReader를 활용하였습니다.
 - CSV, Excel 모두 공통적으로 첫째행에 변수이름, 두번째 행에 변수타입을 작성해주어야합니다.
 ---
@@ -32,7 +33,9 @@
 - tools에 loader가 생깁니다. loader를 눌러 다시 엑셀 패스와 저장할 위치를 설정합니다.
     - excel 패스는 scripts를 만들때 엑셀 위치로 자동으로 지정되어 있습니다. 위치를 변경한 경우에만 수정해주세요.
 - Make Object를 누르면 ScriptableObject가 생성됩니다.
-  
+---
+# GoogleSheet to Json
+- 추후 작성 예정
 
 
 
