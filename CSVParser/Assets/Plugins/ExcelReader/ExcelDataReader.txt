@@ -1,0 +1,3 @@
+https://github.com/ExcelDataReader/ExcelDataReader?tab=MIT-1-ov-file
+
+https://github.com/ExcelDataReader/ExcelDataReader.git
